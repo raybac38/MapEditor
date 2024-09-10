@@ -1,0 +1,16 @@
+{
+  "name": "map_editor_linux",
+  "version": "1.0.0",
+  "description": "Map editor for land of silvia",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raybac",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^32.0.2",
+    "three": "^0.168.0"
+  }
+}

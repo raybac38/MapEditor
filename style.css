@@ -1,0 +1,76 @@
+body
+{
+    margin: 0;
+    display: flex;
+}
+#main_scene
+{
+	width: 80vw;
+    height: 100vh;
+    background-color: aqua;
+}
+#control
+{
+    width: 20vw;
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+#control_panel
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: auto;
+    height: 95vh;
+    background-color: azure;
+}
+
+#onglets
+{
+    height: 5vh;
+}
+
+
+.flexbox
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1vw;
+}
+.box
+{
+    margin: 2px;
+    border: 2px;
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    background-color: black;
+    border-color: blue;
+    border-style: solid;   
+}
+
+.box:hover
+{
+    margin: 0px;
+    width: 52px;
+    height: 52px;
+}
+/* custom scrollbar */
+
+/* Scrollbars pour Chrome, Edge, Electron (WebKit) */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(100, 100, 100, 0.5); /* Couleur semi-transparente */
+    border-radius: 10px; /* Coins arrondis */
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Bordure semi-transparente pour espacement interne */
+    background-clip: content-box; /* Empêche la bordure de déborder */
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.05); /* Fond presque transparent, pour simuler l'overlay */
+}
